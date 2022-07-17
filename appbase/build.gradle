@@ -58,6 +58,6 @@ dependencies {
     api Libs.logging_interceptor
     api Libs.coroutines
     api Libs.coroutines_android
-    annotationProcessor(Libs.arouter_api)
-    annotationProcessor(Libs.arouter_compiler)
+    api Libs.arouter_api
+    annotationProcessor Libs.arouter_compiler
 }

@@ -63,6 +63,6 @@ dependencies {
     androidTestImplementation 'androidx.test.ext:junit:1.1.3'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
     implementation project(":appbase")
-    annotationProcessor(Libs.arouter_api)
-    annotationProcessor(Libs.arouter_compiler)
+    api Libs.arouter_api
+    annotationProcessor Libs.arouter_compiler
 }

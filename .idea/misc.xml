@@ -4,6 +4,8 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Android_Kotlin/TravelPrevention/app/src/main/res/layout/activity_main.xml" value="0.1574074074074074" />
+        <entry key="..\:/Android_Kotlin/TravelPrevention/appbase/src/main/res/drawable/drawable_loading_toast.xml" value="0.108" />
+        <entry key="..\:/Android_Kotlin/TravelPrevention/appbase/src/main/res/layout/item_dialog_loading.xml" value="0.23697916666666666" />
       </map>
     </option>
   </component>
