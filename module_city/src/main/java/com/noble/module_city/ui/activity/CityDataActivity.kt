@@ -7,7 +7,7 @@ import android.view.View
 import androidx.activity.viewModels
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.alibaba.android.arouter.facade.annotation.Route
-import com.noble.appbase.config.ArouteConfig.CITY_DATA
+import com.noble.appbase.config.ArouteConfig
 import com.noble.appbase.config.ParametersConfig
 import com.noble.appbase.config.ResultCodeConfig
 import com.noble.appbase.ui.BaseActivity
@@ -23,7 +23,7 @@ import com.noble.module_city.viewmodel.CityDataViewModel
  * @author：HQL
  * @desc：城市数据Activity
  */
-@Route(path = CITY_DATA)
+@Route(path = ArouteConfig.CITY_DATA)
 class CityDataActivity : BaseActivity<ActivityCityDataBinding>() {
 
     /**
@@ -62,7 +62,7 @@ class CityDataActivity : BaseActivity<ActivityCityDataBinding>() {
                 mViewBinding.tvIndex.visibility = View.VISIBLE
                 mViewBinding.tvIndex.text = word
                 word?.let {
-                    cityList.let { it ->
+                    cityList.let {
                         it.forEachIndexed { position, data ->
                             if (word == data.firstLetter) {
                                 mViewBinding.rvData.scrollToPosition(position)

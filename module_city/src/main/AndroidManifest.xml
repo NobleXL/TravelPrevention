@@ -11,7 +11,7 @@
         android:theme="@style/Theme.TravelPrevention">
         <activity
             android:name=".ui.activity.CityDataActivity"
-            android:exported="false" />
+            android:exported="true" />
     </application>
 
 </manifest>

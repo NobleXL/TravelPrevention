@@ -6,8 +6,18 @@
         <entry key="..\:/Android_Kotlin/TravelPrevention/app/src/main/res/layout/activity_main.xml" value="0.1574074074074074" />
         <entry key="..\:/Android_Kotlin/TravelPrevention/appbase/src/main/res/drawable/drawable_loading_toast.xml" value="0.108" />
         <entry key="..\:/Android_Kotlin/TravelPrevention/appbase/src/main/res/layout/item_dialog_loading.xml" value="0.23697916666666666" />
+        <entry key="..\:/Android_Kotlin/TravelPrevention/module_city/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.12" />
+        <entry key="..\:/Android_Kotlin/TravelPrevention/module_city/src/main/res/drawable/ic_launcher_background.xml" value="0.12" />
         <entry key="..\:/Android_Kotlin/TravelPrevention/module_city/src/main/res/layout/activity_city_data.xml" value="0.22239583333333332" />
         <entry key="..\:/Android_Kotlin/TravelPrevention/module_city/src/main/res/layout/item_city_data.xml" value="0.1" />
+        <entry key="..\:/Android_Kotlin/TravelPrevention/module_city/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.12" />
+        <entry key="..\:/Android_Kotlin/TravelPrevention/module_city/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.12" />
+        <entry key="..\:/Android_Kotlin/TravelPrevention/module_test_agency/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.12" />
+        <entry key="..\:/Android_Kotlin/TravelPrevention/module_test_agency/src/main/res/drawable/ic_launcher_background.xml" value="0.12" />
+        <entry key="..\:/Android_Kotlin/TravelPrevention/module_test_agency/src/main/res/layout/activity_agency_message.xml" value="0.23697916666666666" />
+        <entry key="..\:/Android_Kotlin/TravelPrevention/module_test_agency/src/main/res/layout/item_agencymessage.xml" value="0.2359375" />
+        <entry key="..\:/Android_Kotlin/TravelPrevention/module_test_agency/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.12" />
+        <entry key="..\:/Android_Kotlin/TravelPrevention/module_test_agency/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.12" />
       </map>
     </option>
   </component>

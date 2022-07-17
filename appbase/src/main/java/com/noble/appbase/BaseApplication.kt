@@ -17,7 +17,7 @@ class BaseApplication : Application() {
     override fun onCreate() {
         super.onCreate()
         context = this
-        ARouter.init(this)
         ARouter.openDebug()
+        ARouter.init(this)
     }
 }

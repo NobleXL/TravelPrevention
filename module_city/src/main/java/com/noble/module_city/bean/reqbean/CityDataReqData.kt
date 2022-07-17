@@ -23,7 +23,7 @@ class CityDataReqData {
 
         var firstLetter: String? = null
             get() {
-                val letter = Regex("a-zA-Z")
+                val letter = Regex("[a-zA-Z]")
                 city?.let {
                     field = Cn2SpellUtil.getPinYinFirstLetter(it)?.uppercase(Locale.getDefault())
                     if (!field?.matches(letter)!!) {
