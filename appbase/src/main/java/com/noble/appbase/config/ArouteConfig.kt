@@ -1,9 +1,8 @@
 package com.noble.appbase.config
 
 /**
- * @author 小寒
- * @version 1.0
- * @date 2022/7/16 20:22
+ * @author：HQL
+ * @desc：路由管理配置文件
  */
 object ArouteConfig {
     /**

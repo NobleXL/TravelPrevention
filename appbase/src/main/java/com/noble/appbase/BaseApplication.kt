@@ -5,9 +5,8 @@ import android.content.Context
 import com.alibaba.android.arouter.launcher.ARouter
 
 /**
- * @author 小寒
- * @version 1.0
- * @date 2022/7/16 20:23
+ * @author：HQL
+ * @desc：application
  */
 class BaseApplication : Application() {
 

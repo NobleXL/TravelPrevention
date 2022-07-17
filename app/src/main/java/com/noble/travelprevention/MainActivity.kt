@@ -7,6 +7,10 @@ import com.noble.appbase.config.ArouteConfig
 import com.noble.appbase.ui.BaseActivity
 import com.noble.travelprevention.databinding.ActivityMainBinding
 
+/**
+ * @author HQL
+ * @desc APP主页面入口
+ */
 class MainActivity : BaseActivity<ActivityMainBinding>() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

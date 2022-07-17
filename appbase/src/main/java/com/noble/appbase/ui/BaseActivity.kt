@@ -7,9 +7,8 @@ import androidx.fragment.app.FragmentActivity
 import androidx.viewbinding.ViewBinding
 
 /**
- * @author 小寒
- * @version 1.0
- * @date 2022/7/16 20:22
+ * @author：HQL
+ * @desc：activity基类
  */
 abstract class BaseActivity<T : ViewBinding> : FragmentActivity() {
 
