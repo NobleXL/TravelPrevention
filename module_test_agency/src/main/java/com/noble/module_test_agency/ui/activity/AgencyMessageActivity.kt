@@ -78,6 +78,10 @@ class AgencyMessageActivity : BaseActivity<ActivityAgencyMessageBinding>() {
         }
     }
 
+    override fun getViewBinding(): ActivityAgencyMessageBinding {
+        return ActivityAgencyMessageBinding.inflate(layoutInflater)
+    }
+
     override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
         super.onActivityResult(requestCode, resultCode, data)
         when (requestCode) {
@@ -94,9 +98,5 @@ class AgencyMessageActivity : BaseActivity<ActivityAgencyMessageBinding>() {
                 }
             }
         }
-    }
-
-    override fun getViewBinding(): ActivityAgencyMessageBinding {
-        return ActivityAgencyMessageBinding.inflate(layoutInflater)
     }
 }

@@ -2,7 +2,7 @@ package com.noble.appbase.config
 
 /**
  * @author：HQL
- * @desc：
+ * @desc：参数值 配置文件
  */
 object ParametersConfig {
 
